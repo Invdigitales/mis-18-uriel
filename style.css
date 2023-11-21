@@ -2,6 +2,7 @@
     padding: 0;
     background-image: url(./imagenes/FONDO.jpg);
     background-size: 100%;
+    
    
   }
   
@@ -31,7 +32,7 @@
       display: block;
       width: 14px;
       height: 14px;
-      border-bottom: 5px solid rgb(179, 179, 179);
+      border-bottom: 5px solid rgb(222, 208, 101);
       border-right: 5px solid rgb(222, 208, 101);
       transform: rotate(45deg);
     margin-left: 48%;
@@ -144,6 +145,7 @@ color: #F4BD18;
     font-family: 'Julius Sans One', sans-serif;
      font-size: 25px;
      color: #38B6FF;
+     margin-top: 10%;
   }
   .parrafo3{
     text-align: center;

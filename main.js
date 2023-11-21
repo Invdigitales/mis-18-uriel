@@ -1,5 +1,5 @@
 
-let diaEvento = new Date('januari 12, 2024 21:30:00').getTime();
+let diaEvento = new Date('February 2, 2024 21:30:00').getTime();
 let boton = document.querySelector("#btn")
 
 
@@ -71,7 +71,7 @@ function diaEventoAhora () {
       icon: 'success',
       html:
         'INGRESÁ' +
-        '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.2258940471197!2d-58.35577382425123!3d-34.80025827288442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32ca3750492c1%3A0xc15f2a9d46ba7f90!2sVial%20Argentina%20Eventos!5e0!3m2!1ses-419!2sar!4v1698326300171!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
+        '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.754799658961!2d-64.2276098249798!3d-31.475930599131292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a36c432460b7%3A0x8c746bd8b6b466de!2sClub%20Las%20Estrellas!5e0!3m2!1ses-419!2sar!4v1700596092905!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
         
         
     })
