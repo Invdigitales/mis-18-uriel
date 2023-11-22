@@ -111,23 +111,25 @@ color: #F4BD18;
   .parrafo3{
     text-align: center;
     font-family: 'Julius Sans One', sans-serif;
-     font-size: 20px;
+     font-size: 24px;
      color: #ffffff;
   }
 
   .parrafo4{
     text-align: center;
     font-family: 'Julius Sans One', sans-serif;
-     font-size: 25px;
-     color:#4f1bfb;
+     font-size: 24px;
+     color: #ffffff;
+     margin-top: 15%;
   }
 
 
   .parrafo6{
     text-align: center;
     font-family: 'Julius Sans One', sans-serif;
-     font-size: 20px;
-     color: #5f5f5f;
+     font-size: 12px;
+     color: #ededed;
+     margin-top: 5%;
   }
 
   .fecha{
@@ -137,7 +139,97 @@ color: #F4BD18;
    
   }
   
-  
+  .clik2{
+    --border-radius: 15px;
+    --border-width: 4px;
+    appearance: none;
+    position: relative;
+    padding: 1em 2em;
+    border: 0;
+    background-color: #212121;
+    font-family: "Roboto", Arial, "Segoe UI", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    z-index: 2;
+    margin-left: 35%;
+  }
+
+  .clik2 {
+    --border-radius: 15px;
+    --border-width: 4px;
+    appearance: none;
+    position: relative;
+    padding: 1em 2em;
+    border: 0;
+    background-color: #212121;
+    font-family: "Roboto", Arial, "Segoe UI", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    z-index: 2;
+    margin-left: 33%;
+   }
+   
+   .clik2::after {
+   
+    --m-i: linear-gradient(#000, #000);
+    --m-o: content-box, padding-box;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: var(--border-width);
+    border-radius: var(--border-radius);
+    background-image: conic-gradient(
+       #196ffa,
+       #2958db,
+       #bbc07f,
+       #d6c330,
+       #8e8e8e,
+       #655adc,
+       #488cfb
+     );
+    -webkit-mask-image: var(--m-i), var(--m-i);
+    mask-image: var(--m-i), var(--m-i);
+    -webkit-mask-origin: var(--m-o);
+    mask-origin: var(--m-o);
+    -webkit-mask-clip: var(--m-o);
+    mask-composite: exclude;
+    -webkit-mask-composite: destination-out;
+    filter: hue-rotate(0);
+    animation: rotate-hue linear 500ms infinite;
+    animation-play-state: paused;
+   }
+   
+   .clik2:hover::after {
+    animation-play-state: running;
+   }
+   
+   @keyframes rotate-hue {
+    to {
+     filter: hue-rotate(1turn);
+    }
+   }
+   
+   .clik2,
+   .clik2::after {
+    box-sizing: border-box;
+   }
+   
+   .clik2:active {
+    --border-width: 5px;
+   }
+ 
+
+
+
+
+
+
+
   .clik {
     --border-radius: 15px;
     --border-width: 4px;
@@ -211,12 +303,16 @@ color: #F4BD18;
   margin-left: 46%;
   }
   .carousel-inner img{
-    width: 90%;
-    margin-left: 5%;
+    width: 70%;
+    margin-left: 15%;
     margin-top: 15%;
   }
   
- 
+ .uriel{
+  width: 25%;
+  margin-left: 8%;
+  margin-top: -27%;
+ }
 .loader {
   --col1: rgba(218, 227, 217, 0.925);
   --col2: rgb(136, 154, 245);
@@ -359,56 +455,29 @@ margin-left: 48%;
     transform: rotate(45deg) translate(20px, 20px);
   }
 }
-.lineaverde{
-  width: 70%;
-  margin-top: -240%;
-  margin-left: 15%;
-}
+
+
  .whatsap{
-  width: 40%;
-  margin-left: 30%;
- }
-.icono{
-  text-align: center;
-    font-family:'Times New Roman', Times, serif; 
-     font-size: 13px;
-     color:#656565;
-    
- }
- .icono{
-  width: 40%;
-  margin-left: 30%;
-  margin-top: 8%;
+  width: 20%;
+  margin-left: 42%;
  }
 
- .fondo4{
-  margin-top: -14%;
- }
-
- .parrafo7{
+ .parrafo5{
   text-align: center;
   font-family: 'Julius Sans One', sans-serif;
    font-size: 25px;
-   color:#4f1bfb;
+   color:#ffffff;
    margin-top: 10%;
 }
-.parrafo8{
-  text-align: center;
-  font-family: 'Julius Sans One', sans-serif;
-   font-size: 20px;
-   color: #5f5f5f;
-}
-.musica{
-  width: 6%;
-  margin-left: 47%;
-  margin-top: -3%;
 
- 
-}
+
+
+
+
  .card_card-body img{
-  margin-left: 29%;
+  margin-left: 28%;
   background-size: 80%;
-  width: 75%;
+  width: 85%;
 }
 
  .parrafo_esperamos{
